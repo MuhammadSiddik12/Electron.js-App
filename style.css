@@ -1,0 +1,38 @@
+@media (prefers-color-scheme:dark) {
+    body{background: rgb(37, 34, 34);color: white; }
+    #toggle-dark-mode{ 
+        border-radius: 15px;
+        width: auto;
+        height: auto;
+        background-color: #5b6dcd;
+        color: #fff;
+        padding: 7px;
+        float: left;
+        border: 2px solid rgb(221, 212, 92);
+        font-family:'Times New Roman', Times, serif;
+        margin:25px;
+        position: fixed;
+        top: 0px;
+        right: 0px; 
+    
+    }
+
+}
+@media (prefers-color-scheme:light) {
+    body{background: rgb(253, 253, 253);color: black;}
+    #toggle-dark-mode{ 
+        border-radius: 15px;
+        width: auto;
+        height: auto;
+        background-color: #5b6dcd;
+        color: #fff;
+        padding: 7px;
+        float: left;
+        border: 2px solid rgb(221, 212, 92);
+        font-family:'Times New Roman', Times, serif;
+        margin:25px;
+        position: fixed;
+        top: 0px;
+        right: 0px; 
+    }
+}
